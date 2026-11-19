@@ -1,29 +1,31 @@
-<!DOCTYPE html>
+<!Doctype html>
 <html lang="ja">
+    <head>  
+        <!-- ページの設定など -->
+        <meta charset ="UTF-8">
+        <title>pagetitle</title>
+        <!-- .cssの読み込み -->
+        <link rel="stylesheet" href="template.css" >  
+    </head>
+    <body>  
+        <!-- 本文 -->
+        <h1 id = "title">タイトル</h1>
+        <h2 id = "subtitle">中見出し</h2>
+        <h3 id = "subsubtitle">小見出し</h3>
+        <p>本文</p>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WebSite</title>
-</head>
-
-<body>
-  <ul class="menu cf">
-  <li><a href="">Menu item</a></li>
-  <li>
-    <a href="">Menu item</a>
-    <ul class="submenu">
-      <li><a href="">Submenu item</a></li>
-      <li><a href="">Submenu item</a></li>
-      <li><a href="">Submenu item</a></li>
-      <li><a href="">Submenu item</a></li>
-    </ul>     
-  </li>
-  <li><a href="">Menu item</a></li>
-  <li><a href="">Menu item</a></li>
-  <li><a href="">Menu item</a></li>
-</ul>
-
-</body>
-
+        <!-- ボタン -->
+        <button id="btn">適当なボタン</button><br>
+        <!-- 画像 -->
+        <img src="./image/img1.png" width = "200"><br> 
+        <!-- リンク -->
+        <a href="https://www.google.com">適当なリンク</a> <br>
+        <!-- スライダ (valueは初期値)-->
+        <input type="range" id="slider" min="0" max="100" value="50"><br>
+         <!-- 箱(.css で見た目整える。)-->
+        <div id="box">この中にいろいろ入れられる</div>
+        
+        <!-- .jsの読み込み -->
+        <script src="template.js"></script>
+    </body>
 </html>
